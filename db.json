@@ -1,22 +1,28 @@
 {
-  "users": {
-    "1": {
-      "name": "John Doe",
-      "age": 25
+  "users": [
+    {
+      "id": 1,
+      "name": "Juliet Oma",
+      "email": "julie@yahoo.com",
+      "number": "08100000000"
     },
-    "2": {
-      "name": "Jane Smith",
-      "age": 30
-    }
-  },
-  "data": {
-    "1": {
-      "name": "John Doe",
-      "age": 25
+    {
+      "id": 2,
+      "name": "James Williams",
+      "email": "jameswilly@gmail.com",
+      "number": "08111111111"
     },
-    "2": {
-      "name": "Jane Smith",
-      "age": 30
+    {
+      "id": 3,
+      "name": "Ahmed Ali",
+      "email": "ahmedali012@gmail.com",
+      "number": "09022222222"
+    },
+    {
+      "id": 4,
+      "name": "Grace Funsho",
+      "email": "gracefunsho@gmail.com",
+      "number": "09033333333"
     }
-  }
+  ]
 }

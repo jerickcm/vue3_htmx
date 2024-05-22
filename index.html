@@ -1,10 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
+    <script src="https://unpkg.com/htmx.org@1.4.1/dist/ext/client-side-templates.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <!-- <script src="https://unpkg.com/sinon@9.0.2/pkg/sinon.js"></script> -->
+    <script lang="ts">
+      // document.addEventListener('htmx:configRequest', (evt) => {
+      //   evt.detail.headers = []
+      // })
+      // document.body.addEventListener('htmx:configRequest', (event: HTMX.ConfigRequestEvent) => {
+      //   event.detail.headers = ''
+      //   event.detail.headers = {
+      //     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+      //   }
+      // })
+    </script>
   </head>
   <body>
     <div id="app"></div>

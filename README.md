@@ -19,3 +19,5 @@ nvm use v21.1.0
 json-server --watch db.json
 
 npm run dev
+
+http://localhost:3000/users?name=
